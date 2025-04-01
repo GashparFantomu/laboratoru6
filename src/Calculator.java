@@ -1,7 +1,7 @@
 import javax.management.RuntimeMBeanException;
 
 public class Calculator {
-    private double result;
+    double result;
     public Calculator() {
         result = 0;
     }
