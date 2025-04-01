@@ -9,8 +9,8 @@ public class Main {
         calculator.subtract(3);
         calculator.divide(3);
 
-        advCalculator.squareRoot(2);
-        advCalculator.power(2);
+        advCalculator.divide(3);
+        double finalResult = advCalculator.squareRoot(54).power(32).getResult();
 
         System.out.println(calculator.getResult());
         System.out.println(advCalculator.getResult());

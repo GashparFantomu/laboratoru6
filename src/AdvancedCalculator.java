@@ -2,15 +2,18 @@ public class AdvancedCalculator extends Calculator {
     public AdvancedCalculator() {
         super();
     }
-    void squareRoot(int num){
+    public AdvancedCalculator squareRoot(int num){
         result = Math.sqrt(num);
+        return this;
     }
 
-    void power(int num){
+    public AdvancedCalculator power(int num){
         result = Math.pow(num, result);
+        return this;
     }
 
-    void sin(int num){
+    public AdvancedCalculator sin(int num){
         result = Math.sin(num);
+        return this;
     }
 }
