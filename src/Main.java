@@ -10,7 +10,8 @@ public class Main {
         calculator.divide(3);
 
         advCalculator.squareRoot(2);
-        advCalculator.sin(30);
+        advCalculator.power(2);
+
         System.out.println(calculator.getResult());
         System.out.println(advCalculator.getResult());
     }
